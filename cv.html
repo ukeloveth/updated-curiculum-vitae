@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cv.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+    <div id="container">
+        <form action="#">
+            <h1 id="header-one">CURICULUM VITAE (CV)</h1>
+            <!-- PERSONAL INFORMATIONS BEGINS -->
+            <div id="personal-data">
+                <h1 class="personal_info">
+                <input type="text" id="fullname" placeholder="PLEASE ENTER YOUR FULLNAME HERE">
+                </h1>
+                
+                <h1><label for="">CONTACT ME</label></h1>
+                <hr>
+                <div id="prof"></div>
+                <span class="phone"> <i class="far fa-phone"></i> <input type="number" id="phone_number" class="phone-one" placeholder="PHONE NUMBER" style="margin-top:20px" > </span> 
+                <span class="email"> <i class="fas fa-envelope"></i> <input type="email" id="email_address"  class="phone-one"  placeholder="EMAIL ADDRESS"> </span> 
+                <span class="location"> <i class="fal fa-map-marker"></i> <input type="text" id="address"  class="phone-one"  placeholder="LOCATION"> </span> 
+                <span class="website"> <i class="fas fa-browser"></i> <input type="text" id="web"  class="phone-one" placeholder="WEBSITE"> </span> 
+
+                <h1><label for="" >ABOUT ME</label></h1>
+                <p class="profiling"> <textarea name="" id="aim" cols="81" rows="2" placeholder="ENTER YOUR PROFILE HERE PLEASE"  style="margin-top: -5px;" ></textarea> </p>
+
+                <h1><label for="">CAREER SUMMARY</label></h1>
+                <p class="career"> <textarea name="" id="summary" cols="81" rows="2" placeholder="WRITE THE SUMMARY OF YOUR CARRIER HERE"></textarea> </p>
+
+            </div>
+            <!-- PRO SKILLS AND ABILITIES HERE -->
+            <div id="skill">
+                
+              <h1><label for="">PRO SKILLS AND ABILITIES</label></h1>
+                <hr>
+                <p id="pro_skills">The following are my best skills which I believe are applicable to the position I have applied for:</p>
+                <ul>
+                    <li class="skill_one"><input type="text" id="skill1" id="skiller"  placeholder="ENTER YOUR SKILLS HERE"></li>
+                    <li class="skill_two"><input type="text" id="skill2" id="skiller" placeholder="ENTER YOUR SKILLS HERE"></li>
+                    <li class="skill_three"><input type="text" id="skill3" id="skiller" placeholder="ENTER YOUR SKILLS HERE"></li>
+                </ul>
+
+            </div>
+           <!-- EDUCATIONAL BACKGROUND HERE -->
+           <div class="education">
+               
+               <h1><label for="">EDUCATIONAL BACKGROUND</label></h1>
+               <hr>
+             <div class="primary">
+                 <span class="pri_school"><input type="text" id="pri" class="exper" placeholder="ENTER PRIMARY SCHOOL ATTENDED"></span>
+                 <span class="certificate"><input type="text" id="cert" class="exper" placeholder="ENTER CERTIFICATE EARNED"></span>
+
+             </div>
+
+             <div class="secondary">
+                <span class="sec_school"><input type="text" id="sec" class="exper" placeholder="ENTER SECONDARY SCHOOL ATTENDED"></span>
+                <span class="sec_certificate"><input type="text" id="sec_cert" class="exper"  placeholder="ENTER CERTIFICATE EARNED"></span>
+
+            </div>
+
+            <div class="higher">
+                <span class="higher_school"><input type="text" id="higher_pri" class="exper" placeholder="ENTER HIGHER SCHOOL ATTENDED"></span>
+                <span class="higher_certificate"><input type="text" id="higher_cert" class="exper" placeholder="ENTER CERTIFICATE EARNED"></span>
+
+            </div>
+           </div>
+
+
+           <!-- WORK EXPERIENCE HERE  -->
+           <div class="work">
+           
+           <h1><label for="">WORK EXPERINCE</label></h1>
+           <hr>
+
+           <div class="job_one">
+            <span class="first_job"><input type="text" id="f_job" class="exper"  placeholder="ENTER YOUR FIRST JOB"></span>
+            <span class="first_experince"><input type="text" id="f_experince" class="exper"  placeholder="ENTER YOUR FIRST EXPERINCE"></span>
+
+        </div>
+
+        <div class="job_two">
+           <span class="second_job"><input type="text" id="s_job" class="exper" placeholder="ENTER YOUR SECOND JOB"></span>
+           <span class="second_experince"><input type="text" id="s_experince" class="exper" placeholder="ENTER YOUR SECOND EXPERINCE"></span>
+
+       </div>
+
+       <div class="job_three">
+           <span class="third_job"><input type="text" id="t_job" class="exper" placeholder="ENTER YOUR THIRD JOB"></span>
+           <span class="third_experince"><input type="text" id="t_experince" class="exper" placeholder="ENTER YOUR THIRD EXPERINCE"></span>
+
+       </div>
+        </div>
+
+        <div class="buttons">
+            <button type="submit" class="actionBtn" id="btnSubmit">SUBMIT</button>
+            <!-- <button type="submit" class="actionBtn" id="btnDownload">DOWNLOAD</button> -->
+        </div>
+
+        <div id="submitedForm "></div>
+        </form>
+    </div>
+</body>
+</html>
